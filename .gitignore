@@ -1,0 +1,7 @@
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+v17/
+x64/
