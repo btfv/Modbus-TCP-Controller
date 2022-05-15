@@ -37,10 +37,10 @@ public:
 		cout << ctime(&now) << " Error: " << ex.what() << endl;
 	}
 
-	static char* IntToCharArray(int value)
+	static char* UIntToCharArray(unsigned int value)
 	{
-		int length = 0;
-		int degree = 1;
+		int length = 1;
+		int degree = 10;
 		while (value / degree)
 		{
 			degree *= 10;

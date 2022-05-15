@@ -143,7 +143,7 @@ private:
             unsigned char voltage[2];
             memcpy(&voltage, &buf[1], 2);
             char16_t voltageValue = NotationConvertor::ConvertToChar16(voltage);
-            message = Util::IntToCharArray(voltageValue);
+            message = Util::UIntToCharArray(voltageValue);
 
             int length = 7;
             for (int i = 0; i < length / 2; i++)
