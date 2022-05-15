@@ -1,5 +1,5 @@
 # Modbus-TCP-Controller
-Course work on system software development for the 4rd semester
+Course work on system software development for the 4th semester
 
 The aim of the course work is to develop software that provides remote control of a peripheral device over a local network, using Modbus TCP as a network protocol.
 
